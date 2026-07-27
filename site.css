@@ -1168,3 +1168,15 @@ h1 {
     max-width: 42vw;
   }
 }
+
+/* Shared support and legal pages use Bunny Crunch's garden palette. */
+.topbar, .home .topbar { background: rgba(35, 90, 53, .94); }
+body:not(.home) { background: radial-gradient(circle at 12% 12%, rgba(158, 211, 107, .32), transparent 22rem), radial-gradient(circle at 88% 18%, rgba(242, 162, 58, .20), transparent 24rem), linear-gradient(180deg, #FFFDF4, #EEF6D9 55%, #D7EDC1); }
+.legal-hero { background: radial-gradient(circle at 82% 16%, rgba(158, 211, 107, .48), transparent 23rem), linear-gradient(145deg, #1D5131, #4E9347 55%, #A4D66E); }
+.summary { border-color: rgba(75, 147, 71, .3); background: rgba(158, 211, 107, .2); }
+.toc, .stat-card, .faq details { border-color: rgba(75, 147, 71, .24); background: rgba(255, 255, 250, .76); }
+.faq details[open] { background: #FFFFFF; box-shadow: 0 14px 36px rgba(29, 81, 49, .12); }
+.document p, .document li, .faq-answer { color: #415C42; }
+.page-card { background: linear-gradient(145deg, #1D5131, #4E9347 56%, #A4D66E); }
+.page-card::after { color: #D9F4A2; }
+.footer { background: #123D27; }
