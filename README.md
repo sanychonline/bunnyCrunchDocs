@@ -1,6 +1,6 @@
 # Bunny Crunch Docs
 
-Public product and support site for **Bunny Crunch** / **Зайчик Морквинка**. The character is **Зайчик Морквинка**, a bunny catching falling carrots in a three-lane arcade game.
+Public product and support site for **Bunny Crunch** / **Зайчик Морквинка**. The character is **Зайчик Морквинка**, racing through a garden-themed three-lane arcade run to gather carrots.
 
 ## Site content
 
