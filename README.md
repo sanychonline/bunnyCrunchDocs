@@ -1,17 +1,16 @@
-# carrotVille Docs
+# Bunny Crunch Docs
 
-Official website for **Bunny Crunch** / **Bunny Crunch**, an iOS arcade game starring Bunny.
+Public product and support site for **Bunny Crunch** / **Зайчик Морквинка**. The character is **Зайчик Морквинка**, a bunny catching falling carrots in a three-lane arcade game.
 
-## Main character
+## Site content
 
-The game's main character is **Bunny** (**Банні**).
+- Uses Bunny Crunch app assets: character, carrots, game background, icon, and logo.
+- Keeps the green-and-carrot palette consistent on `index.html`, `support.html`, `privacy.html`, and `terms.html`.
+- Shows the approved Docs screenshots: launch art without a spinner, active gameplay with falling carrots and no Game Over or banner, and English settings.
+- Provides localized support in 17 interface languages.
 
-## Pages
+## Deployment
 
-- `index.html` — product landing page
-- `support.html` — localized support in 17 languages
-- `privacy.html` — privacy policy
-- `terms.html` — terms of use
+The static public site deploys from `main` through `.github/workflows/pages.yml`.
 
-The site is static and deployed to GitHub Pages through
-`.github/workflows/pages.yml`.
+https://sanychonline.github.io/bunnyCrunchDocs/
